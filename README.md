@@ -12,6 +12,6 @@ This part is currently under construction. The whole content will be available s
     title={SaSLaW: Dialogue Speech Corpus with Audio-visual Egocentric Information Toward Environment-adaptive Dialogue Speech Synthesis},
     author={Osamu Take, Shinnosuke Takamichi, Kentaro Seki, Yoshiaki Bando, Hiroshi Saruwatari},
     booktitle={Proc. INTERSPEECH},
-    year={2023}
+    year={2024}
 }
 ```

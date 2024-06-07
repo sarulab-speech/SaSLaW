@@ -1,5 +1,5 @@
 # SaSLaW Corpus
-This repository presents the dialogue speech corpus with audio-visual egocentric information.
+This repository introduces our new dialogue speech corpus with audio-visual egocentric information.
 
 The corpus name is the abbreviation of "**S**o, what **a**re you **S**peaking, **L**istening, **a**nd **W**atching?"
 

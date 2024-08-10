@@ -1,0 +1,9 @@
+soundfile
+tqdm
+numpy
+torch
+torchaudio
+transformers
+dataset
+pyannote.core
+pyannote.audio

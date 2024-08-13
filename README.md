@@ -162,11 +162,11 @@ The contents (speech, hearing sound, video and any other configurations) of SaSL
 
 Osamu Take / 武 伯寒 (University of Tokyo)
 
-Shinnosuke Takamichi / 高道 慎之介 (@forthshinji, University of Tokyo)
+Shinnosuke Takamichi / 高道 慎之介 (@forthshinji, Keio University)
 
 Kentaro Seki / 関 健太郎 (University of Tokyo)
 
-Yoshiaki Bando / 坂東 宜昭  (University of Tokyo)
+Yoshiaki Bando / 坂東 宜昭  (National Institute of Advanced Industrial Science and Technology (AIST))
 
 Hiroshi Saruwatari / 猿渡 洋 (University of Tokyo)
 

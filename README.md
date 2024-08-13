@@ -13,9 +13,7 @@ Note that all of the contents of SaSLaW corpus are **in Japanese**.
 
 ## How to Download SaSLaW
 
-TBA
-
-Use huggingface dataset or download directly from this zipfiles
+We provides this corpus in huggingface dataset format. Please download the SaSLaW from the [huggingface repo](https://huggingface.co/datasets/sarulab-speech/SaSLaW).
 
 ## Contents
 

@@ -13,7 +13,7 @@ Note that all of the contents of SaSLaW corpus are **in Japanese**.
 
 ## How to Download SaSLaW
 
-We provides this corpus in huggingface dataset format. Please download the SaSLaW from the [huggingface repo](https://huggingface.co/datasets/sarulab-speech/SaSLaW).
+We provide this corpus in Hugging Face dataset format. Please download the SaSLaW from the [huggingface repo](https://huggingface.co/datasets/sarulab-speech/SaSLaW).
 
 ## Contents
 
@@ -124,13 +124,13 @@ For each speaker's data, SaSLaW provides the contents as follows:
   - For surrounding noise, we labeled the noise category and the noise power (its value in dB, and the stages of noise levels as `silent`, `moderate`, and `noisy`).
   - For the relative position, we labeled its stages as `near`, `moderate`, and `distant`.
 
-This repository provides some codes snippets about the VAD, speech text transcription and hearing sound extraction by [pyannote.audio](https://github.com/pyannote/pyannote-audio) and [openai/whisper-large-v2](https://huggingface.co/openai/whisper-large-v2), (to generate `speech_segment`, `transcript_segment`, `listen_segment`). If you want to use it, please install required modules (in `requirements.txt`) and run the following scripts:
+This repository provides some code snippets about the VAD, speech text transcription and hearing sound extraction by [pyannote.audio](https://github.com/pyannote/pyannote-audio) and [openai/whisper-large-v2](https://huggingface.co/openai/whisper-large-v2), (to generate `speech_segment`, `transcript_segment`, `listen_segment`). If you want to use it, please install required modules (in `requirements.txt`) and run the following scripts:
 
 ```bash
 pip install requirements.txt
 # To generate `speech_segment`, `transcript_segment` from `speech`
 python scripts/segment_and_transcribe.py /path/to/SaSLaW/spk01
-# To generate `listen_segment` (speech_segment, and transcript_segment required for both of the speaker pair)
+# To generate `listen_segment` (speech_segment, and seg_info required for both of the speaker pair)
 python scripts/pick_listen_sound.py /path/to/SaSLaW/spk01 spk02
 ```
 
@@ -158,15 +158,15 @@ The contents (speech, hearing sound, video and any other configurations) of SaSL
 
 ## Contributors
 
-Osamu Take / 武 伯寒 (University of Tokyo)
+Osamu Take / 武 伯寒 (The University of Tokyo)
 
 Shinnosuke Takamichi / 高道 慎之介 (@forthshinji, Keio University)
 
-Kentaro Seki / 関 健太郎 (University of Tokyo)
+Kentaro Seki / 関 健太郎 (The University of Tokyo)
 
 Yoshiaki Bando / 坂東 宜昭  (National Institute of Advanced Industrial Science and Technology (AIST))
 
-Hiroshi Saruwatari / 猿渡 洋 (University of Tokyo)
+Hiroshi Saruwatari / 猿渡 洋 (The University of Tokyo)
 
 ## Paper Citation
 
@@ -181,5 +181,4 @@ Hiroshi Saruwatari / 猿渡 洋 (University of Tokyo)
 
 ## TODO
 
-- [ ] Publish the corpus in huggingface dataset format
 - [ ] Provide phoneme alignments
